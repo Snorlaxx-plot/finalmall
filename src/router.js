@@ -17,7 +17,7 @@ export default new Router({
       redirect: Home
     },
     {
-      path: '/',
+      path: '/home',
       name: 'home',
       component: Home
     },
@@ -28,13 +28,13 @@ export default new Router({
       component: Cart
     },
     {
-      path: '/More',
+      path: '/more',
       name: 'more',
 
       component: More
     },
     {
-      path: '/Profile',
+      path: '/profile',
       name: 'profile',
 
       component: Profile

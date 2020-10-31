@@ -13,7 +13,7 @@
         <i slot="item-icon-active" class="iconfont tabbariconcolor">&#xe61b;</i>
         <p slot="item-text">更多</p>
       </tab-bar-item>
-      <tab-bar-item path="/search" inputColor="#ff5777">
+      <tab-bar-item path="/cart" inputColor="#ff5777">
         <i slot="item-icon" class="iconfont tabbaricon">&#xe63b;</i>
         <i slot="item-icon-active" class="iconfont tabbariconcolor">&#xe63b;</i>
 
