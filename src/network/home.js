@@ -6,3 +6,13 @@ export function getHomeMultidata() {
         url: '/home/multidata'//这个是基于request的baseURL的路径。
     })
 }
+export function getHomeGoods(type, page) {
+    return request({
+        url: '/home/data',
+        params: {
+            type,
+            page
+        }
+    })
+
+}

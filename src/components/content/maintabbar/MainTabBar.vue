@@ -1,6 +1,6 @@
 <!--maintabbar  -->
 <template>
-  <div>
+  <div id="maintabbar">
     <tab-bar>
       <tab-bar-item path="/home" inputColor="#ff5777">
         <i slot="item-icon" class="iconfont tabbaricon">&#xe609;</i>
@@ -51,5 +51,8 @@ i {
   height: 23px;
   text-align: center;
   vertical-align: middle;
+}
+#maintabbar {
+  z-index: 5;
 }
 </style>
