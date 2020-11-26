@@ -2,24 +2,24 @@
 <template>
   <div id="maintabbar">
     <tab-bar>
-      <tab-bar-item path="/home" inputColor="#ff5777">
+      <tab-bar-item path="/home" inputColor="#27868a">
         <i slot="item-icon" class="iconfont tabbaricon">&#xe609;</i>
         <i slot="item-icon-active" class="iconfont tabbariconcolor">&#xe609;</i>
 
         <p slot="item-text">首页</p>
       </tab-bar-item>
-      <tab-bar-item path="/more" inputColor="#ff5777">
+      <tab-bar-item path="/more" inputColor="#27868a">
         <i slot="item-icon" class="iconfont tabbaricon">&#xe61b;</i>
         <i slot="item-icon-active" class="iconfont tabbariconcolor">&#xe61b;</i>
         <p slot="item-text">更多</p>
       </tab-bar-item>
-      <tab-bar-item path="/cart" inputColor="#ff5777">
+      <tab-bar-item path="/cart" inputColor="#27868a">
         <i slot="item-icon" class="iconfont tabbaricon">&#xe63b;</i>
         <i slot="item-icon-active" class="iconfont tabbariconcolor">&#xe63b;</i>
 
         <p slot="item-text">购物车</p>
       </tab-bar-item>
-      <tab-bar-item path="/profile" inputColor="#ff5777">
+      <tab-bar-item path="/profile" inputColor="#27868a">
         <i slot="item-icon" class="iconfont tabbaricon">&#xe60d;</i>
         <i slot="item-icon-active" class="iconfont tabbariconcolor">&#xe60d;</i>
 
@@ -53,6 +53,6 @@ i {
   vertical-align: middle;
 }
 #maintabbar {
-  z-index: 5;
+  z-index: 100;
 }
 </style>

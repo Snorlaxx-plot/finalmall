@@ -1,7 +1,10 @@
 <template>
   <div id="app">
-    <main-tab-bar></main-tab-bar>
-    <router-view />
+    <keep-alive>
+      <router-view />
+    </keep-alive>
+
+    <main-tab-bar class="tabbar"></main-tab-bar>
   </div>
 </template>
 <script>
@@ -15,4 +18,8 @@ export default {
 </script>
 <style>
 @import "./assets/css/base.css";
+.tabbar {
+  z-index: 20;
+  font-size: 13px;
+}
 </style>

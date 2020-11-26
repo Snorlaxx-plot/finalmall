@@ -1,20 +1,20 @@
 @import "./normalize.css";
 @font-face {
-    font-family: 'iconfont';  /* project id 2031773 */
-    src: url('//at.alicdn.com/t/font_2031773_sp8zwfp6vxs.eot');
-    src: url('//at.alicdn.com/t/font_2031773_sp8zwfp6vxs.eot?#iefix') format('embedded-opentype'),
-    url('//at.alicdn.com/t/font_2031773_sp8zwfp6vxs.woff2') format('woff2'),
-    url('//at.alicdn.com/t/font_2031773_sp8zwfp6vxs.woff') format('woff'),
-    url('//at.alicdn.com/t/font_2031773_sp8zwfp6vxs.ttf') format('truetype'),
-    url('//at.alicdn.com/t/font_2031773_sp8zwfp6vxs.svg#iconfont') format('svg');
-  }
+  font-family: 'iconfont';  /* project id 2031773 */
+  src: url('//at.alicdn.com/t/font_2031773_ma9ko4fh4uk.eot');
+  src: url('//at.alicdn.com/t/font_2031773_ma9ko4fh4uk.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2031773_ma9ko4fh4uk.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2031773_ma9ko4fh4uk.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2031773_ma9ko4fh4uk.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2031773_ma9ko4fh4uk.svg#iconfont') format('svg');
+}
 
 /*:root -> 获取根元素html*/
 /* css定义变量法 */
 :root {
   --color-text: #666;
-  --color-high-text: #ff5777;
-  --color-tint: #ff8198;
+  --color-high-text: #27868a;
+  --color-tint: #27868a;
   --color-background: #fff;
   --font-size: 14px;
   --line-height: 1.5;

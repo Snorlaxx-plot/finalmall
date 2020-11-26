@@ -4,7 +4,7 @@
     <div
       v-for="(item, index) in titles"
       :key="index"
-      :class="{ active: index === currentIndex }"
+      :class="{ active: index === count }"
       @click="tabClick(index)"
     >
       <span>{{ item }}</span>
@@ -16,9 +16,15 @@
 export default {
   data() {
     return {
-      currentIndex: 0,
+      // currentIndex: 0,
     };
   },
+  computed: {
+    count() {
+      return this.$store.state.HomecurrentIndex;
+    },
+  },
+  // 父传子
   props: {
     titles: {
       type: Array,
@@ -29,7 +35,9 @@ export default {
   },
   methods: {
     tabClick(index) {
-      this.currentIndex = index;
+      this.$store.state.HomecurrentIndex = index;
+      // 子传父
+      this.$emit("tabClick", index); //传出index参数
     },
   },
 };

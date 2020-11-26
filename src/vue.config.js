@@ -1,4 +1,5 @@
 module.exports = {
+    // lintOnsave: false,
     configureWebpack: {
         resolve: {
             alias: {
